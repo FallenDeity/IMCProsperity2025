@@ -32,3 +32,9 @@ typer==0.15.2
 typing-extensions==4.13.1
 tzdata==2025.2
 wcwidth==0.2.13
+
+# Dev Dependencies
+black==23.12.1
+isort==5.13.2
+pyright==1.1.295
+pre-commit==3.1.0
