@@ -1,12 +1,17 @@
 [tool.poetry]
-name = "assistant"
+name = "imc"
 version = "0.1.0"
 description = ""
 authors = ["FallenDeity <61227305+FallenDeity@users.noreply.github.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
+numpy = "^2.2.4"
+pandas = "^2.2.3"
+jsonpickle = "^4.0.5"
+prosperity3bt = "^0.5.0"
 
 
 [tool.poetry.group.dev.dependencies]
